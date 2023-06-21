@@ -1,0 +1,34 @@
+[wn1.ziemowit.hpc.polsl.pl:05521] mca_base_component_repository_open: unable to open mca_btl_scif: libscif.so.0: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+WARNING: There are more than one active ports on host 'wn1', but the
+default subnet GID prefix was detected on more than one of these
+ports.  If these ports are connected to different physical IB
+networks, this configuration will fail in Open MPI.  This version of
+Open MPI requires that every physically separate IB subnet that is
+used between connected MPI processes must have different subnet ID
+values.
+
+Please see this FAQ entry for more details:
+
+  http://www.open-mpi.org/faq/?category=openfabrics#ofa-default-subnet-gid
+
+NOTE: You can turn off this warning by setting the MCA parameter
+      btl_openib_warn_default_gid_prefix to 0.
+--------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "mpi_image.py", line 14, in <module>
+    image = Image.open("result15000_12000.png")
+  File "/home/terminal29/venv38/lib64/python3.8/site-packages/PIL/Image.py", line 3277, in open
+    im = _open_core(fp, filename, prefix, formats)
+  File "/home/terminal29/venv38/lib64/python3.8/site-packages/PIL/Image.py", line 3264, in _open_core
+    _decompression_bomb_check(im.size)
+  File "/home/terminal29/venv38/lib64/python3.8/site-packages/PIL/Image.py", line 3173, in _decompression_bomb_check
+    raise DecompressionBombError(msg)
+PIL.Image.DecompressionBombError: Image size (180000000 pixels) exceeds limit of 178956970 pixels, could be decompression bomb DOS attack.
+--------------------------------------------------------------------------
+mpiexec detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[11143,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------

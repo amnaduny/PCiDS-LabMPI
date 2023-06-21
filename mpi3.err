@@ -1,0 +1,181 @@
+[wn1.ziemowit.hpc.polsl.pl:06532] mca_base_component_repository_open: unable to open mca_btl_scif: libscif.so.0: cannot open shared object file: No such file or directory (ignored)
+[wn1.ziemowit.hpc.polsl.pl:06531] mca_base_component_repository_open: unable to open mca_btl_scif: libscif.so.0: cannot open shared object file: No such file or directory (ignored)
+[wn1.ziemowit.hpc.polsl.pl:06534] mca_base_component_repository_open: unable to open mca_btl_scif: libscif.so.0: cannot open shared object file: No such file or directory (ignored)
+[wn1.ziemowit.hpc.polsl.pl:06533] mca_base_component_repository_open: unable to open mca_btl_scif: libscif.so.0: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+WARNING: There are more than one active ports on host 'wn1', but the
+default subnet GID prefix was detected on more than one of these
+ports.  If these ports are connected to different physical IB
+networks, this configuration will fail in Open MPI.  This version of
+Open MPI requires that every physically separate IB subnet that is
+used between connected MPI processes must have different subnet ID
+values.
+
+Please see this FAQ entry for more details:
+
+  http://www.open-mpi.org/faq/?category=openfabrics#ofa-default-subnet-gid
+
+NOTE: You can turn off this warning by setting the MCA parameter
+      btl_openib_warn_default_gid_prefix to 0.
+--------------------------------------------------------------------------
+[wn6.ziemowit.hpc.polsl.pl:16966] mca_base_component_repository_open: unable to open mca_btl_scif: libscif.so.0: cannot open shared object file: No such file or directory (ignored)
+[wn6.ziemowit.hpc.polsl.pl:16964] mca_base_component_repository_open: unable to open mca_btl_scif: libscif.so.0: cannot open shared object file: No such file or directory (ignored)
+[wn6.ziemowit.hpc.polsl.pl:16967] mca_base_component_repository_open: unable to open mca_btl_scif: libscif.so.0: cannot open shared object file: No such file or directory (ignored)
+[wn6.ziemowit.hpc.polsl.pl:16965] mca_base_component_repository_open: unable to open mca_btl_scif: libscif.so.0: cannot open shared object file: No such file or directory (ignored)
+[wn2.ziemowit.hpc.polsl.pl:02955] mca_base_component_repository_open: unable to open mca_btl_scif: libscif.so.0: cannot open shared object file: No such file or directory (ignored)
+[wn2.ziemowit.hpc.polsl.pl:02953] mca_base_component_repository_open: unable to open mca_btl_scif: libscif.so.0: cannot open shared object file: No such file or directory (ignored)
+[wn2.ziemowit.hpc.polsl.pl:02954] mca_base_component_repository_open: unable to open mca_btl_scif: libscif.so.0: cannot open shared object file: No such file or directory (ignored)
+[wn2.ziemowit.hpc.polsl.pl:02956] mca_base_component_repository_open: unable to open mca_btl_scif: libscif.so.0: cannot open shared object file: No such file or directory (ignored)
+Traceback (most recent call last):
+  File "mpi3.py", line 44, in <module>
+    comm.Reduce(local_star_count, total_star_count, op = MPI.SUM, root = 0)	# REDUCE THE LOCAL STAR COUNTS INTO TOTAL STAR COUNT VARIABLE USING REDUCE FUNCTION
+  File "mpi4py/MPI/Comm.pyx", line 861, in mpi4py.MPI.Comm.Reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 726, in mpi4py.MPI._p_msg_cco.for_reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 692, in mpi4py.MPI._p_msg_cco.for_cro_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 203, in mpi4py.MPI.message_simple
+  File "mpi4py/MPI/msgbuffer.pxi", line 138, in mpi4py.MPI.message_basic
+  File "mpi4py/MPI/asbuffer.pxi", line 365, in mpi4py.MPI.getbuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 148, in mpi4py.MPI.PyMPI_GetBuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 140, in mpi4py.MPI.PyMPI_GetBuffer
+TypeError: a bytes-like object is required, not 'int'
+Traceback (most recent call last):
+  File "mpi3.py", line 44, in <module>
+    comm.Reduce(local_star_count, total_star_count, op = MPI.SUM, root = 0)	# REDUCE THE LOCAL STAR COUNTS INTO TOTAL STAR COUNT VARIABLE USING REDUCE FUNCTION
+  File "mpi4py/MPI/Comm.pyx", line 861, in mpi4py.MPI.Comm.Reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 726, in mpi4py.MPI._p_msg_cco.for_reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 692, in mpi4py.MPI._p_msg_cco.for_cro_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 203, in mpi4py.MPI.message_simple
+  File "mpi4py/MPI/msgbuffer.pxi", line 138, in mpi4py.MPI.message_basic
+  File "mpi4py/MPI/asbuffer.pxi", line 365, in mpi4py.MPI.getbuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 148, in mpi4py.MPI.PyMPI_GetBuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 140, in mpi4py.MPI.PyMPI_GetBuffer
+TypeError: a bytes-like object is required, not 'int'
+Traceback (most recent call last):
+  File "mpi3.py", line 44, in <module>
+    comm.Reduce(local_star_count, total_star_count, op = MPI.SUM, root = 0)	# REDUCE THE LOCAL STAR COUNTS INTO TOTAL STAR COUNT VARIABLE USING REDUCE FUNCTION
+  File "mpi4py/MPI/Comm.pyx", line 861, in mpi4py.MPI.Comm.Reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 726, in mpi4py.MPI._p_msg_cco.for_reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 692, in mpi4py.MPI._p_msg_cco.for_cro_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 203, in mpi4py.MPI.message_simple
+  File "mpi4py/MPI/msgbuffer.pxi", line 138, in mpi4py.MPI.message_basic
+  File "mpi4py/MPI/asbuffer.pxi", line 365, in mpi4py.MPI.getbuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 148, in mpi4py.MPI.PyMPI_GetBuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 140, in mpi4py.MPI.PyMPI_GetBuffer
+TypeError: a bytes-like object is required, not 'int'
+Traceback (most recent call last):
+  File "mpi3.py", line 44, in <module>
+    comm.Reduce(local_star_count, total_star_count, op = MPI.SUM, root = 0)	# REDUCE THE LOCAL STAR COUNTS INTO TOTAL STAR COUNT VARIABLE USING REDUCE FUNCTION
+  File "mpi4py/MPI/Comm.pyx", line 861, in mpi4py.MPI.Comm.Reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 726, in mpi4py.MPI._p_msg_cco.for_reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 692, in mpi4py.MPI._p_msg_cco.for_cro_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 203, in mpi4py.MPI.message_simple
+  File "mpi4py/MPI/msgbuffer.pxi", line 138, in mpi4py.MPI.message_basic
+  File "mpi4py/MPI/asbuffer.pxi", line 365, in mpi4py.MPI.getbuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 148, in mpi4py.MPI.PyMPI_GetBuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 140, in mpi4py.MPI.PyMPI_GetBuffer
+TypeError: a bytes-like object is required, not 'int'
+Traceback (most recent call last):
+  File "mpi3.py", line 44, in <module>
+    comm.Reduce(local_star_count, total_star_count, op = MPI.SUM, root = 0)	# REDUCE THE LOCAL STAR COUNTS INTO TOTAL STAR COUNT VARIABLE USING REDUCE FUNCTION
+  File "mpi4py/MPI/Comm.pyx", line 861, in mpi4py.MPI.Comm.Reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 726, in mpi4py.MPI._p_msg_cco.for_reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 692, in mpi4py.MPI._p_msg_cco.for_cro_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 203, in mpi4py.MPI.message_simple
+  File "mpi4py/MPI/msgbuffer.pxi", line 138, in mpi4py.MPI.message_basic
+  File "mpi4py/MPI/asbuffer.pxi", line 365, in mpi4py.MPI.getbuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 148, in mpi4py.MPI.PyMPI_GetBuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 140, in mpi4py.MPI.PyMPI_GetBuffer
+TypeError: a bytes-like object is required, not 'int'
+Traceback (most recent call last):
+  File "mpi3.py", line 44, in <module>
+    comm.Reduce(local_star_count, total_star_count, op = MPI.SUM, root = 0)	# REDUCE THE LOCAL STAR COUNTS INTO TOTAL STAR COUNT VARIABLE USING REDUCE FUNCTION
+  File "mpi4py/MPI/Comm.pyx", line 861, in mpi4py.MPI.Comm.Reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 726, in mpi4py.MPI._p_msg_cco.for_reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 692, in mpi4py.MPI._p_msg_cco.for_cro_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 203, in mpi4py.MPI.message_simple
+  File "mpi4py/MPI/msgbuffer.pxi", line 138, in mpi4py.MPI.message_basic
+  File "mpi4py/MPI/asbuffer.pxi", line 365, in mpi4py.MPI.getbuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 148, in mpi4py.MPI.PyMPI_GetBuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 140, in mpi4py.MPI.PyMPI_GetBuffer
+TypeError: a bytes-like object is required, not 'int'
+Traceback (most recent call last):
+  File "mpi3.py", line 44, in <module>
+    comm.Reduce(local_star_count, total_star_count, op = MPI.SUM, root = 0)	# REDUCE THE LOCAL STAR COUNTS INTO TOTAL STAR COUNT VARIABLE USING REDUCE FUNCTION
+  File "mpi4py/MPI/Comm.pyx", line 861, in mpi4py.MPI.Comm.Reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 726, in mpi4py.MPI._p_msg_cco.for_reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 692, in mpi4py.MPI._p_msg_cco.for_cro_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 203, in mpi4py.MPI.message_simple
+  File "mpi4py/MPI/msgbuffer.pxi", line 138, in mpi4py.MPI.message_basic
+  File "mpi4py/MPI/asbuffer.pxi", line 365, in mpi4py.MPI.getbuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 148, in mpi4py.MPI.PyMPI_GetBuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 140, in mpi4py.MPI.PyMPI_GetBuffer
+TypeError: a bytes-like object is required, not 'int'
+Traceback (most recent call last):
+  File "mpi3.py", line 44, in <module>
+    comm.Reduce(local_star_count, total_star_count, op = MPI.SUM, root = 0)	# REDUCE THE LOCAL STAR COUNTS INTO TOTAL STAR COUNT VARIABLE USING REDUCE FUNCTION
+  File "mpi4py/MPI/Comm.pyx", line 861, in mpi4py.MPI.Comm.Reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 726, in mpi4py.MPI._p_msg_cco.for_reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 692, in mpi4py.MPI._p_msg_cco.for_cro_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 203, in mpi4py.MPI.message_simple
+  File "mpi4py/MPI/msgbuffer.pxi", line 138, in mpi4py.MPI.message_basic
+  File "mpi4py/MPI/asbuffer.pxi", line 365, in mpi4py.MPI.getbuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 148, in mpi4py.MPI.PyMPI_GetBuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 140, in mpi4py.MPI.PyMPI_GetBuffer
+TypeError: a bytes-like object is required, not 'int'
+Traceback (most recent call last):
+  File "mpi3.py", line 44, in <module>
+    comm.Reduce(local_star_count, total_star_count, op = MPI.SUM, root = 0)	# REDUCE THE LOCAL STAR COUNTS INTO TOTAL STAR COUNT VARIABLE USING REDUCE FUNCTION
+  File "mpi4py/MPI/Comm.pyx", line 861, in mpi4py.MPI.Comm.Reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 726, in mpi4py.MPI._p_msg_cco.for_reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 692, in mpi4py.MPI._p_msg_cco.for_cro_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 203, in mpi4py.MPI.message_simple
+  File "mpi4py/MPI/msgbuffer.pxi", line 138, in mpi4py.MPI.message_basic
+  File "mpi4py/MPI/asbuffer.pxi", line 365, in mpi4py.MPI.getbuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 148, in mpi4py.MPI.PyMPI_GetBuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 140, in mpi4py.MPI.PyMPI_GetBuffer
+TypeError: a bytes-like object is required, not 'int'
+Traceback (most recent call last):
+  File "mpi3.py", line 44, in <module>
+    comm.Reduce(local_star_count, total_star_count, op = MPI.SUM, root = 0)	# REDUCE THE LOCAL STAR COUNTS INTO TOTAL STAR COUNT VARIABLE USING REDUCE FUNCTION
+  File "mpi4py/MPI/Comm.pyx", line 861, in mpi4py.MPI.Comm.Reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 726, in mpi4py.MPI._p_msg_cco.for_reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 692, in mpi4py.MPI._p_msg_cco.for_cro_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 203, in mpi4py.MPI.message_simple
+  File "mpi4py/MPI/msgbuffer.pxi", line 138, in mpi4py.MPI.message_basic
+  File "mpi4py/MPI/asbuffer.pxi", line 365, in mpi4py.MPI.getbuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 148, in mpi4py.MPI.PyMPI_GetBuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 140, in mpi4py.MPI.PyMPI_GetBuffer
+TypeError: a bytes-like object is required, not 'int'
+Traceback (most recent call last):
+  File "mpi3.py", line 44, in <module>
+    comm.Reduce(local_star_count, total_star_count, op = MPI.SUM, root = 0)	# REDUCE THE LOCAL STAR COUNTS INTO TOTAL STAR COUNT VARIABLE USING REDUCE FUNCTION
+  File "mpi4py/MPI/Comm.pyx", line 861, in mpi4py.MPI.Comm.Reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 726, in mpi4py.MPI._p_msg_cco.for_reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 692, in mpi4py.MPI._p_msg_cco.for_cro_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 203, in mpi4py.MPI.message_simple
+  File "mpi4py/MPI/msgbuffer.pxi", line 138, in mpi4py.MPI.message_basic
+  File "mpi4py/MPI/asbuffer.pxi", line 365, in mpi4py.MPI.getbuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 148, in mpi4py.MPI.PyMPI_GetBuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 140, in mpi4py.MPI.PyMPI_GetBuffer
+TypeError: a bytes-like object is required, not 'int'
+Traceback (most recent call last):
+  File "mpi3.py", line 44, in <module>
+    comm.Reduce(local_star_count, total_star_count, op = MPI.SUM, root = 0)	# REDUCE THE LOCAL STAR COUNTS INTO TOTAL STAR COUNT VARIABLE USING REDUCE FUNCTION
+  File "mpi4py/MPI/Comm.pyx", line 861, in mpi4py.MPI.Comm.Reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 723, in mpi4py.MPI._p_msg_cco.for_reduce
+  File "mpi4py/MPI/msgbuffer.pxi", line 692, in mpi4py.MPI._p_msg_cco.for_cro_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 203, in mpi4py.MPI.message_simple
+  File "mpi4py/MPI/msgbuffer.pxi", line 138, in mpi4py.MPI.message_basic
+  File "mpi4py/MPI/asbuffer.pxi", line 365, in mpi4py.MPI.getbuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 148, in mpi4py.MPI.PyMPI_GetBuffer
+  File "mpi4py/MPI/asbuffer.pxi", line 140, in mpi4py.MPI.PyMPI_GetBuffer
+TypeError: a bytes-like object is required, not 'int'
+--------------------------------------------------------------------------
+mpiexec detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[10101,1],2]
+  Exit code:    1
+--------------------------------------------------------------------------
+[wn1.ziemowit.hpc.polsl.pl:06518] 11 more processes have sent help message help-mpi-btl-openib.txt / default subnet prefix
+[wn1.ziemowit.hpc.polsl.pl:06518] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

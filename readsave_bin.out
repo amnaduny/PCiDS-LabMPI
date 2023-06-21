@@ -1,0 +1,31 @@
+cd :  /home/terminal29/labMPI
+
+file path : /home/terminal29/labMPI/infile60000_48000.bin
+file name :  infile60000_48000.bin
+widht : 60000
+height : 48000
+Total time :  57.932537317276
+
+file path : /home/terminal29/labMPI/infile30000_24000.bin
+file name :  infile30000_24000.bin
+widht : 30000
+height : 24000
+Total time :  18.663594245910645
+
+file path : /home/terminal29/labMPI/infile15000_12000.bin
+file name :  infile15000_12000.bin
+widht : 15000
+height : 12000
+Total time :  5.642723321914673
+
+file path : /home/terminal29/labMPI/infile45000_36000.bin
+file name :  infile45000_36000.bin
+widht : 45000
+height : 36000
+Total time :  39.92619824409485
+
+file path : /home/terminal29/labMPI/infile1500_1200.bin
+file name :  infile1500_1200.bin
+widht : 1500
+height : 1200
+Total time :  0.3816554546356201
